@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>LINEカスタマーサポートへ移動中...</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+    const links = [
+      "https://page.line.me/605qnkyc",
+      "https://page.line.me/431msctn",
+      "https://page.line.me/690lcwsn",
+      "https://page.line.me/359rofxa"
+    ];
+    window.onload = function () {
+      const selected = links[Math.floor(Math.random() * links.length)];
+      window.location.href = selected;
+    };
+  </script>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      padding: 60px;
+    }
+  </style>
+</head>
+<body>
+  <h2>LINEカスタマーサポートに接続しています...</h2>
+  <p>自動的にLINEへリダイレクトされます。しばらくお待ちください。</p>
+  <p>開かない場合は、以下のリンクをクリックしてください：</p>
+  <ul>
+    <li><a href="https://page.line.me/605qnkyc">サポート1</a></li>
+    <li><a href="https://page.line.me/431msctn">サポート2</a></li>
+    <li><a href="https://page.line.me/690lcwsn">サポート3</a></li>
+    <li><a href="https://page.line.me/359rofxa">サポート4</a></li>
+  </ul>
+</body>
+</html>
